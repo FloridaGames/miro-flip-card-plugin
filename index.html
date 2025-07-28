@@ -1,0 +1,66 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flip Card Plugin</title>
+  <link rel="stylesheet" href="https://miro.com/app/static/mirotone/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid container">
+    <div class="cs1 ce12">
+      <h1>Flip Card Creator</h1>
+      <p>Define up to 4 sides for your flip card. Leave image URL blank to have a text-only side.</p>
+    </div>
+
+    <!-- Card 1 -->
+    <div class="cs1 ce12">
+      <div class="form-group">
+        <label for="card1-text">Card 1 Text</label>
+        <input type="text" class="input" id="card1-text" placeholder="Enter text for the first side">
+        <label for="card1-image">Card 1 Image URL</label>
+        <input type="text" class="input" id="card1-image" placeholder="Enter image URL">
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="cs1 ce12">
+      <div class="form-group">
+        <label for="card2-text">Card 2 Text</label>
+        <input type="text" class="input" id="card2-text" placeholder="Enter text for the second side">
+        <label for="card2-image">Card 2 Image URL</label>
+        <input type="text" class="input" id="card2-image" placeholder="Enter image URL">
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="cs1 ce12">
+      <div class="form-group">
+        <label for="card3-text">Card 3 Text</label>
+        <input type="text" class="input" id="card3-text" placeholder="Enter text for the third side">
+        <label for="card3-image">Card 3 Image URL</label>
+        <input type="text" class="input" id="card3-image" placeholder="Enter image URL">
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="cs1 ce12">
+      <div class="form-group">
+        <label for="card4-text">Card 4 Text</label>
+        <input type="text" class="input" id="card4-text" placeholder="Enter text for the fourth side">
+        <label for="card4-image">Card 4 Image URL</label>
+        <input type="text" class="input" id="card4-image" placeholder="Enter image URL">
+      </div>
+    </div>
+
+    <div class="cs1 ce12">
+      <button class="button button-primary" id="create-card">Create Flip Card</button>
+    </div>
+  </div>
+
+  <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
